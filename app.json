@@ -1,18 +1,19 @@
 {
   "expo": {
-    "name": "Agon Preview",
-    "slug": "agon-preview",
+    "name": "Veritas",
+    "slug": "veritas-preview",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#0f172a"
     },
     "ios": {
       "supportsTablet": true,
+      "bundleIdentifier": "com.arcadalabs.veritas",
       "infoPlist": {
         "NSCameraUsageDescription": "Veritas needs camera access to capture physically verified photos.",
         "NSLocationWhenInUseUsageDescription": "Veritas needs your location to embed GPS coordinates into photos for verification.",
@@ -21,11 +22,10 @@
       }
     },
     "android": {
+      "package": "com.arcadalabs.veritas",
       "adaptiveIcon": {
         "backgroundColor": "#0f172a",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/adaptive-icon.png"
       },
       "permissions": [
         "android.permission.CAMERA",
