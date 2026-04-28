@@ -74,6 +74,5 @@
     "runtimeVersion": {
       "policy": "appVersion"
     },
-    "owner": "arcadalabs"
-  }
+     }
 }
