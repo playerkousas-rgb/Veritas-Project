@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0f172a"
+      "backgroundColor": "#000000"
     },
     "ios": {
       "supportsTablet": true,
@@ -22,9 +22,9 @@
       }
     },
     "android": {
-      "package": "com.arcadalabs.veritas",
+      "package": "com.veritas.preview.app",
       "adaptiveIcon": {
-        "backgroundColor": "#0f172a",
+        "backgroundColor": "#000000",
         "foregroundImage": "./assets/adaptive-icon.png"
       },
       "permissions": [
@@ -63,15 +63,8 @@
       "android",
       "web"
     ],
-    "extra": {
-      "eas": {
-             }
-    },
-    "updates": {
-      "url": "https://u.expo.dev/552f0665-e30d-4f11-9ea9-97bc22a22809"
-    },
     "runtimeVersion": {
       "policy": "appVersion"
-    },
-     }
+    }
+  }
 }
